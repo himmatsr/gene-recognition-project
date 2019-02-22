@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=part1
+comment1.params=dnaStr\ startIndex\ stopCodon
+comment1.target=int\ findStopCodon(java.lang.String,\ int,\ java.lang.String)
+comment2.params=dna\ where
+comment2.target=java.lang.String\ findGene(java.lang.String,\ int)
+comment3.params=dna
+comment3.target=edu.duke.StorageResource\ getAllGenes(java.lang.String)
+comment3.text=public\ void\ printAllGenes(String\ dna){\ //for\ printing\ the\ genes\r\n\ \ \ \ \ \ \ \ int\ startIndex\ \=\ 0;\r\n\ \ \ \ \ \ \ \ while(true){\r\n\ \ \ \ \ \ \ \ \ \ \ \ String\ currentGene\=findGene(dna\ ,\ startIndex);\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(currentGene.isEmpty()){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ break;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println(currentGene);\r\n\ \ \ \ \ \ \ \ \ \ \ \ startIndex\ \=\ dna.indexOf(currentGene\ ,startIndex\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ currentGene.length());\r\n\ \ \ \ \ \ \ \ }\r\n}
+comment4.params=dna
+comment4.target=double\ cgratio(java.lang.String)
+comment5.params=dna
+comment5.target=int\ countCTG(java.lang.String)
+comment6.params=dna
+comment6.target=void\ testOn(java.lang.String)
+comment7.params=sr
+comment7.target=void\ processGene(edu.duke.StorageResource)
+comment8.params=
+comment8.target=void\ testProcessGenes()
+numComments=9
